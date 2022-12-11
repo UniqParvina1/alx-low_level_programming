@@ -23,7 +23,7 @@ int main(void)
 		k = i / 10; /* doubles digit */
 												if (k < j)
 		{
-													putchar(k + '0');
+			putchar(k + '0');
 			putchar(j + '0');
 
 			if (i < 89)
@@ -32,7 +32,7 @@ int main(void)
 				putchar(32);								}
 		}
 
-		i++;
+												i++;
 
 	}
 	putchar('\n');
