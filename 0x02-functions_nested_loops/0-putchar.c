@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - Print _putchar
- * coding process by Kamilat
- * Return: Always 0
+ * main -  prints _putchar, i believe this should work
+ * Return: Always 0 (great)
  */
+
 int main(void)
 {
 	_putchar('_');
@@ -16,5 +16,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
